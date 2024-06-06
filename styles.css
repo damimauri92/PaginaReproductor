@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #E0E0E0; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #ffffff; 
+}
+
+a {
+    color: #BB86FC; 
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #BB86FC; 
+    border-radius: 5px;
+    background-color: #1F1F1F; 
+    color: #E0E0E0; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #BB86FC; 
+    color: #121212; 
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #555555; 
+    cursor: not-allowed;
+}
+
+button:hover:enabled {
+    background-color: #3700B3; 
+}
+
+audio, video {
+    margin: 20px 0;
+    border: 2px solid #BB86FC; 
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.toast img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
